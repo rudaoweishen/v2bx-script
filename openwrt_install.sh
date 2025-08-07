@@ -58,8 +58,8 @@ install_V2bX() {
     cp geoip.dat /etc/V2bX/
     cp geosite.dat /etc/V2bX/
 
-    cp /usr/local/V2bX/V2bX /etc/init.d/V2bX
-    chmod +x /etc/init.d/V2bX
+    cp /usr/local/V2bX/V2bX /etc/init.d/v2bx
+    chmod +x /etc/init.d/v2bx
     echo -e "${green}V2bX ${last_version}${plain} 安装完成，您可以使用 service V2bX start 启动服务"
 
     if [[ ! -f /etc/V2bX/config.json ]]; then
