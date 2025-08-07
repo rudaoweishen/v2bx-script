@@ -67,7 +67,7 @@ install_V2bX() {
         echo -e ""
         echo -e "全新安装，请先参看教程：https://v2bx.v-50.me/，配置必要的内容"
     else
-        service V2bX start
+        service v2bx start
         sleep 2
         check_status
         if [[ $? == 0 ]]; then
