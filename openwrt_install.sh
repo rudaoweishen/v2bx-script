@@ -81,7 +81,7 @@ install_V2bX() {
     cp route.json /etc/V2bX/
     cp custom_outbound.json /etc/V2bX/
     cp custom_inbound.json /etc/V2bX/
-    curl -o /usr/bin/V2bX -Ls https://raw.githubusercontent.com/wyx2685/V2bX-script/master/V2bX.sh
+    curl -o /usr/bin/V2bX -Ls https://raw.githubusercontent.com/rudaoweishen/V2bX-script/master/op_V2bX.sh
     chmod +x /usr/bin/V2bX
     ln -s /usr/bin/V2bX /usr/bin/v2bx
 }
